@@ -10,6 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     background: rgb(47, 231, 103);
+    font-family: "Poetsen One";
+    padding: 10px;
 }
 .navigation{
     flex: 1;
@@ -59,15 +61,37 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: justify;
 }
-.asidebar-right>img{
+img{
     width: 70%;
     height: 100%;
     border-radius: 40px 10px 40px 10px;
     margin: 30px;
 }
-
+#mine{
+    width: 70%;
+    height: 100%;
+}
 /* about page */
 #about{
-
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    align-items: center;
+}
+.aboutleft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutleft:first-child{
+    text-align: center;
+}
+.aboutright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
